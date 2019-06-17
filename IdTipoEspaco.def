@@ -1,0 +1,9 @@
+
+typedef enum
+{
+   CED_ID_TIPO_VALOR_NULO = 0,
+
+   #include "TiposEspacoLista.def" 
+
+   CED_ID_TIPO_ILEGAL = 999 
+} CED_tpIdTipoEspaco ;
